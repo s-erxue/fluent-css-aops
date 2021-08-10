@@ -1,0 +1,38 @@
+/*
+  Windows 10 theme for AoPS blogs.
+  Copyright (C) 2021 Eric Xue
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@import url(https://db.onlinewebfonts.com/c/4f1c0acc06ffec914158fe07e208b731?family=Segoe+MDL2+Assets);
+@import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
+
+div, p, span {
+  font-family: 'Segoe UI' !important;
+}
+
+.aops-font, div.cmty-bbcode-other.clickable.cmty-bbcode-btn {
+  font-family: 'AoPS' !important;
+}
+
+span.blog-delete-shout {
+  font-family: 'Segoe MDL2 Assets' !important;
+  visibility: hidden;
+}
+
+span.blog-delete-shout:after {
+  content: ''; 
+  visibility: visible;
+}
