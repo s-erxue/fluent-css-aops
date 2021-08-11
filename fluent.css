@@ -26,6 +26,30 @@
   src: url(https://raw.githubusercontent.com/s-erxue/fluent-css-aops/main/fonts/segoeui.ttf);
 }
 
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(https://raw.githubusercontent.com/s-erxue/fluent-css-aops/main/fonts/segoeuib.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(https://raw.githubusercontent.com/s-erxue/fluent-css-aops/main/fonts/segoeuisb.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(https://raw.githubusercontent.com/s-erxue/fluent-css-aops/main/fonts/segoeuil.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(https://raw.githubusercontent.com/s-erxue/fluent-css-aops/main/fonts/segoeuisl.ttf);
+  font-weight: 300;
+}
+
 div, p, span {
   font-family: 'Segoe UI' !important;
 }
