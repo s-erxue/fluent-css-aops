@@ -64,6 +64,6 @@ span.blog-delete-shout {
 }
 
 span.blog-delete-shout:after {
-  content: ''; 
+  content: '\E74D';
   visibility: visible;
 }
